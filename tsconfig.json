@@ -3,6 +3,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "jsx": "react-jsx",
+    "types": ["react", "react-dom"],
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["ES2020", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true
   }
 }
